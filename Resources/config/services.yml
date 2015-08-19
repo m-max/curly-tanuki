@@ -1,0 +1,5 @@
+services:
+    bibi.manager.bibi:
+        class: "BibiBundle\Manager\BibiManager"
+        arguments:
+          - @doctrine_mongodb.odm.document_manager

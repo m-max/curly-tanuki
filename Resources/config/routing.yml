@@ -1,0 +1,3 @@
+bibi:
+    path:      /test/{id}
+    defaults:  { _controller: BibiBundle:Bibi:loadBibi, id: 1 }
